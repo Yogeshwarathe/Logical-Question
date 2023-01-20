@@ -6,7 +6,7 @@ function Middle_of_the_list(head){
 
     const middle_list = [];
     for(var input=haf;input<user_length; input+=1){
-        middle_list.push(head[input])
+        middle_list.push(head[input]).toString
     }
 
     return middle_list
